@@ -2,6 +2,7 @@
 $emailLogin = $_POST['email'];
 $senhaLogin = $_POST['senha'];
 
+$nomeCadastro = $_POST['nomeCadastro'];
 $emailCadastro = $_POST['emailCadastro'];
 $senhaCadastro = $_POST['senhaCadastro'];
 
@@ -26,13 +27,13 @@ $loginCorreto = (
 
             <h1>Login realizado com sucesso!</h1>
             <p class="sucesso">
-                Bem-vindo ao sistema
+                Bem-vindo ao sistema, <?php echo $nomeCadastro; ?>!
             </p>
         <?php } else { ?>
 
             <h1>Erro no login</h1>
             <p class="erro">
-                E-mail ou senha incorretos
+                Email ou senha incorretos :(
             </p>
 
         <?php } ?>

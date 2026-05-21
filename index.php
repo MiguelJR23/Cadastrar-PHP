@@ -13,11 +13,11 @@
         <form action="forms/login.php" method="POST">
 
             <label>Nome</label>
-            <input type="text" name="nome" required>
+            <input type="text" name="nome" required placeholder="Roberto Barros">
             <label>E-mail</label>
-            <input type="email" name="email" required>
+            <input type="email" name="email" required placeholder="r0b3rts2332@gmail.com">
             <label>Senha</label>
-            <input type="password" name="senha" required>
+            <input type="password" name="senha" required accept="fulano23">
             <button type="submit">Cadastrar</button>
 
         </form>

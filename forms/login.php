@@ -23,6 +23,7 @@ $senha = $_POST['senha'];
             <input type="email" name="email" required>
             <label>Senha</label>
             <input type="password" name="senha" required>
+            <input type="hidden" name="nomeCadastro" value="<?php echo $nome; ?>">
             <input type="hidden" name="emailCadastro" value="<?php echo $email; ?>">
             <input type="hidden" name="senhaCadastro" value="<?php echo $senha; ?>">
             <button type="submit">Entrar</button>

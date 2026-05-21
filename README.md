@@ -1,1 +1,3 @@
-# Cadastrar-PHP
+# Cadastrar-PHP 🎱
+
+php -S localhost:8000
